@@ -1,4 +1,4 @@
-﻿; Saved in https://www.notion.so/sarahmak/Startup-Scripts-AutoHotKey-97dd8c8243074677bcc240fc9e84bab8?pvs=4
+﻿; Notion note: https://www.notion.so/sarahmak/Startup-Scripts-AutoHotKey-97dd8c8243074677bcc240fc9e84bab8?pvs=4
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 #Warn  ; Enable warnings to assist with detecting common errors.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
