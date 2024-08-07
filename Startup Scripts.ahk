@@ -1,4 +1,4 @@
-﻿; Notion note: https://www.notion.so/sarahmak/Startup-Scripts-AutoHotKey-97dd8c8243074677bcc240fc9e84bab8?pvs=4
+; Notion note: https://www.notion.so/sarahmak/Startup-Scripts-AutoHotKey-97dd8c8243074677bcc240fc9e84bab8?pvs=4
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 #Warn  ; Enable warnings to assist with detecting common errors.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
@@ -117,6 +117,9 @@ return
 
 ; Win+Ctrl+Alt+F1 TO OPEN ALL APPS FOR DAILIES
 #^!f1::
+; Habitify to check off habits
+Run, "C:\Program Files\Google\Chrome\Application\chrome_proxy.exe"  --profile-directory=Default --app-id=cacpjdmjgehmaaamjeliglelonkbnnfh
+
 ; Headspace
 Run, "C:\Program Files\Google\Chrome\Application\chrome_proxy.exe"  --profile-directory=Default --app-id=eahpfdigphohjafhakfninihbmdmkmlb
 
