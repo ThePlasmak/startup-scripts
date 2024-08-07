@@ -1,5 +1,4 @@
-; Notion note: https://www.notion.so/sarahmak/Startup-Scripts-AutoHotKey-97dd8c8243074677bcc240fc9e84bab8?pvs=4
-#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 #Warn  ; Enable warnings to assist with detecting common errors.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
@@ -131,10 +130,6 @@ Run, "C:\Users\Sarah\AppData\Local\Programs\Notion\Notion.exe"
 
 ; Notion Calendar to make battle plan
 ; Run, "C:\Program Files\Google\Chrome\Application\chrome_proxy.exe"  --profile-directory=Default --app-id=gfjiemlnmgajmgihefeppogphdpjchab
-
-; Win+Ctrl+F1 to run headspace_to_text.py to save Headspace transcript
-; #^f1::
-; Run, "C:\Users\Sarah\Documents\Python Scripts\headspace-to-text\headspace_title_check_and_to_text.py"
 
 return
 
