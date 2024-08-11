@@ -53,28 +53,28 @@ F15::
 ; USE COLOURS EASILY IN NOTION
 RAlt & 6::
 F18::
-if WinActive("ahk_exe chrome.exe") or WinActive("ahk_exe Notion.exe") {
+if WinActive("ahk_exe chrome.exe") or WinActive("ahk_exe Arc.exe") or WinActive("ahk_exe Notion.exe") {
     Sendinput, /purple{Enter}{Left}
 }
 return
 
 RAlt & 7::
 F19::
-if WinActive("ahk_exe chrome.exe") or WinActive("ahk_exe Notion.exe") {
+if WinActive("ahk_exe chrome.exe") or WinActive("ahk_exe Arc.exe") or WinActive("ahk_exe Notion.exe") {
     Sendinput, /green{Enter}{Left}
 }
 return
 
 RAlt & 8::
 F20::
-if WinActive("ahk_exe chrome.exe") or WinActive("ahk_exe Notion.exe") {
+if WinActive("ahk_exe chrome.exe") or WinActive("ahk_exe Arc.exe") or WinActive("ahk_exe Notion.exe") {
     Sendinput, /red{Enter}{Left}
 }
 return
 
 RAlt & 9::
 F21::
-if WinActive("ahk_exe chrome.exe") or WinActive("ahk_exe Notion.exe") {
+if WinActive("ahk_exe chrome.exe") or WinActive("ahk_exe Arc.exe") or WinActive("ahk_exe Notion.exe") {
     Sendinput, /yellow{Enter}{Left}
 }
 return
@@ -96,7 +96,7 @@ return
 ; CHECK DATE OF A WEBPAGE
 RAlt & =::
 F24::
-    if WinActive("ahk_exe chrome.exe") {
+    if WinActive("ahk_exe chrome.exe") or WinActive("ahk_exe Arc.exe") {
     SendInput, {Ctrl Down}l{Ctrl Up}
     SendInput, {Ctrl Down}v{Ctrl Up}
     SendInput, {Home}inurl:"
