@@ -54,7 +54,7 @@ F15::
 RAlt & 6::
 F18::
 if WinActive("ahk_exe chrome.exe") or WinActive("ahk_exe Arc.exe") or WinActive("ahk_exe Notion.exe") {
-    Sendinput, /purple{Enter}{Left}
+    Sendinput, /blue{Enter}{Left}
 }
 return
 
