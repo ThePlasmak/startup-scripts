@@ -6,4 +6,8 @@ The majority of my text expansion (replacing text after typing a snippet) is don
 # Requirements
 - [AutoHotKey v1](https://www.autohotkey.com/)
 - [nircmd](https://safe.menlosecurity.com/https://www.nirsoft.net/utils/nircmd.html)
+  - Available in dependencies folder
+  - Must be available on the path
 - display
+  - Available in dependencies folder
+  - Must be available on the path
