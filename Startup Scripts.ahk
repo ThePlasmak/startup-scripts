@@ -6,6 +6,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 T1 := false
 T2 := false
 T3 := false
+T4 := false
 
 ; SCREEN ROTATION
 RAlt & 1::
@@ -34,9 +35,11 @@ F14::
     }
     return
 
+; (RAlt & 3 OR F15) SWITCHING AUDIO OUTPUT IS IN "DAC Toggle.exe"
+
 ; SWITCH MAIN MONITOR
-RAlt & 3::
-F15::
+RAlt & 4::
+F16::
     T3 := !T3
     if T3
     {
@@ -48,7 +51,19 @@ F15::
     }
     return
 
-; (RAlt & 4 OR F16) SWITCHING AUDIO OUTPUT IS IN "DAC Toggle.exe"
+; WORK LAPTOP TASKBAR MODE
+RAlt & 5::
+F17::
+    T4 := !T4
+    if T4
+    {
+        run, "batch_files\work_laptop_taskbar_mode.bat"
+    }
+    else
+    {
+        run, "batch_files\work_laptop_taskbar_mode_reset.bat"
+    }
+    return
 
 ; USE COLOURS EASILY IN NOTION
 RAlt & 6::
