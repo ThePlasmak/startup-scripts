@@ -35,11 +35,9 @@ F14::
     }
     return
 
-; (RAlt & 3 OR F15) SWITCHING AUDIO OUTPUT IS IN "DAC Toggle.exe"
-
 ; SWITCH MAIN MONITOR
-RAlt & 4::
-F16::
+RAlt & 3::
+F15::
     T3 := !T3
     if T3
     {
@@ -52,8 +50,8 @@ F16::
     return
 
 ; WORK LAPTOP TASKBAR MODE
-RAlt & 5::
-F17::
+RAlt & 4::
+F16::
     T4 := !T4
     if T4
     {
@@ -64,6 +62,8 @@ F17::
         run, "batch_files\work_laptop_taskbar_mode_reset.bat"
     }
     return
+
+; (RAlt & 5 OR F17) SWITCHING AUDIO OUTPUT IS IN "DAC Toggle.exe"
 
 ; USE COLOURS EASILY IN NOTION
 RAlt & 6::
