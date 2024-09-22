@@ -63,8 +63,6 @@ F16::
     }
     return
 
-; (RAlt & 5 OR F17) SWITCHING AUDIO OUTPUT IS IN "DAC Toggle.exe"
-
 ; USE COLOURS EASILY IN NOTION
 RAlt & 6::
 F18::
