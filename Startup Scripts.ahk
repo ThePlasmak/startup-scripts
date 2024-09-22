@@ -35,9 +35,11 @@ F14::
     }
     return
 
+; (RAlt & 3 OR F15) SWITCHING AUDIO OUTPUT IS IN "DAC Toggle.exe"
+
 ; SWITCH MAIN MONITOR
-RAlt & 3::
-F15::
+RAlt & 4::
+F16::
     T3 := !T3
     if T3
     {
@@ -50,8 +52,8 @@ F15::
     return
 
 ; WORK LAPTOP TASKBAR MODE
-RAlt & 4::
-F16::
+RAlt & 5::
+F17::
     T4 := !T4
     if T4
     {
