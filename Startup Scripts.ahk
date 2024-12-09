@@ -67,9 +67,9 @@ F17::
 
 ; USE COLOURS EASILY IN NOTION
 RAlt & 6::
-F18::
+F21::
 if WinActive("ahk_exe chrome.exe") or WinActive("ahk_exe Arc.exe") or WinActive("ahk_exe Notion.exe") {
-    Sendinput, /blue{Enter}{Left}
+    Sendinput, /yellow{Enter}{Left}
 }
 return
 
@@ -88,9 +88,9 @@ if WinActive("ahk_exe chrome.exe") or WinActive("ahk_exe Arc.exe") or WinActive(
 return
 
 RAlt & 9::
-F21::
+F18::
 if WinActive("ahk_exe chrome.exe") or WinActive("ahk_exe Arc.exe") or WinActive("ahk_exe Notion.exe") {
-    Sendinput, /yellow{Enter}{Left}
+    Sendinput, /blue{Enter}{Left}
 }
 return
 
